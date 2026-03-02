@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src:/app/src
+      - gradle-cache:/root/.gradle
+    environment:
+      - SPRING_DEVTOOLS_RESTART_ENABLED=true
+
+volumes:
+  gradle-cache:
