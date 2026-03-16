@@ -66,3 +66,11 @@ java -version
 
 
 https://copilot.microsoft.com/chats/4LwbAgWkz5mP6sXvedd7v
+
+### 8. Acessar swagger
+Swagger UI: http://localhost:8080/swagger-ui.html
+OpenAPI JSON: http://localhost:8080/api-docs
+
+
+### 9. Configurações mais rápidas
+ctrl + shift + p -> Java: Configure java runtime
